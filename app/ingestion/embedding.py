@@ -1,13 +1,8 @@
 from ingestion import markdown_processing
 
-from sentence_transformers import SentenceTransformer
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
-# from langchain_openai import OpenAIEmbeddings
-
-from pathlib import Path
-from uuid import uuid4
 
 
 
